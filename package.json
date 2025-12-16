@@ -1,0 +1,19 @@
+{
+  "name": "node-home-page",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Next-style app directory project with API routes and a landing page.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
