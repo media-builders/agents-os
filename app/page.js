@@ -130,10 +130,10 @@ export default function HomePage() {
           <div className={styles.heroGrid}>
             <div className={styles.heroContent}>
               <p className={styles.kicker}>Enterprise-ready AI dialer + CRM</p>
-              <h1 className={styles.h1}>Turn leads into booked appointments—fast, consistent, and compliant.</h1>
+              <h1 className={styles.h1}>Turn leads into booked appointments - fast, consistent, and compliant.</h1>
               <p className={styles.lead}>
                 AI-powered CRM + dialer that responds in seconds, logs everything automatically, and escalates only warm
-                conversations to your team—so you win more appointments without more admin.
+                conversations to your team - so you win more appointments without more admin.
               </p>
               <div className={styles.proofChips}>
                 <span>Target: speed-to-lead &lt;60 seconds (configurable by source and consent)</span>
@@ -167,7 +167,7 @@ export default function HomePage() {
           <div className={styles.sectionHeader}>
             <h2 className={styles.h2}>Built for the entire buying committee.</h2>
             <p className={styles.supporting}>
-              Agent outcomes vs Ops outcomes vs Compliance outcomes—clear separation to speed internal alignment.
+              Agent outcomes vs Ops outcomes vs Compliance outcomes - clear separation to speed internal alignment.
             </p>
           </div>
           <div className={styles.tabbed}>
@@ -259,7 +259,9 @@ export default function HomePage() {
       <section id="demo" className={`${styles.section} ${styles.splitHero}`}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
-            <h2 className={styles.h2}>Live workflow demo: lead → contact → qualification → booked meeting.</h2>
+            <h2 className={styles.h2}>
+              {"Live workflow demo: lead -> contact -> qualification -> booked meeting."}
+            </h2>
           </div>
           <div className={styles.twoColumn}>
             <div className={styles.card}>
@@ -297,7 +299,7 @@ export default function HomePage() {
             <article className={styles.card}>
               <p className={styles.cardTitle}>Case study outline</p>
               <ul>
-                <li>Baseline → intervention → result → timeframe → context</li>
+                <li>{"Baseline -> intervention -> result -> timeframe -> context"}</li>
                 <li>How measured + attribution rules + measurement window</li>
                 <li>Replicability notes for your stack</li>
               </ul>
@@ -426,7 +428,7 @@ export default function HomePage() {
             <div>
               <h2 className={styles.h2}>Ready to stop losing leads to slow follow-up?</h2>
               <p className={styles.supporting}>
-                Clear next step. No spam. We’ll map your lead sources, consent flow, and first 2 sequences.
+                Clear next step. No spam. We'll map your lead sources, consent flow, and first 2 sequences.
               </p>
             </div>
             <a className={styles.primaryCTA} href="/book">
